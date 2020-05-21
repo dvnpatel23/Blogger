@@ -1,0 +1,230 @@
+.modal {
+    height:100vh;
+    width: 100vw;
+    background:rgba(0, 25, 53, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    div {
+        // background: gray;
+    }
+
+}
+
+.textForm  {
+    bottom: 50%;
+    left: 50%;
+    // vertical-align: middle;
+    display: block;
+    position: absolute;
+}
+
+.textTitle { 
+    font-size: 20px;
+    display: flex;
+    border: none;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+}
+
+.body_input {
+    margin-left: 90px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: -70px;
+    font-size: 20px;
+}
+
+.createTextButton{
+    padding: 12px;
+    background: #00b9ff;
+    color: white;
+    display: inline-block;
+    left: 430px;
+    bottom: -125px;
+    position: relative;
+    
+}
+
+.cancelButton  {
+    display: flex;
+    margin-left: 110px;
+    box-sizing: 10px;
+    width: 15px;
+    height: 5px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 2px;
+    border: solid black 1px;
+    background: #9ea6af;
+    color: white;
+    position: relative;
+    left: -85px;
+    top: 102px;
+
+}
+
+.mediaForm {
+    bottom: 50%;
+    left: 50%;
+    // vertical-align: middle;
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+}
+
+.photoCaption  {
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+    position: relative;
+    left: 80px;
+}
+
+.uploadButton {
+    padding-bottom: 10px;
+    margin-left: 85px;
+    position: relative;
+    left: 70px;
+}
+
+
+.postPhotoButton  {
+    padding: 12px;
+    background: #00b9ff;
+    color: white;
+    display: inline-block;
+    left: 400px;
+    bottom: -140px;
+    position: relative;
+}
+
+.quoteForm {
+      bottom: 50%;
+    left: 50%;
+    // vertical-align: middle;
+    display: block;
+    position: absolute;
+}
+
+.quoteFormInput {
+    display: flex;
+    margin-bottom: 10px;
+    color: black;
+    padding-bottom: 10px;
+    border: none;
+    margin-left: 90px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+
+}
+
+.source {
+    margin-bottom: 10px;
+    color: black;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: -10px;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+}
+
+.postQuoteButton  {
+    padding: 12px;
+    background: #00b9ff;
+    color: white;
+    display: inline-block;
+    left: 430px;
+    bottom: -125px;
+    position: relative;
+}
+
+.linkForm {
+    bottom: 50%;
+    left: 50%;
+    // vertical-align: middle;
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+}
+
+.linkInput {
+    display: flex;
+    margin-bottom: 10px;
+    border: none;
+    color: black;
+    padding-bottom: 10px;
+    margin-left: 90px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.postLinkButton  {
+    padding: 12px;
+    background: #00b9ff;
+    color: white;
+    display: inline-block;
+    left: 430px;
+    bottom: -125px;
+    position: relative;
+}
+
+
+.form {
+    position: absolute;
+    bottom: -500px;
+    left: 500px;
+    background: white;
+    width: 300px;
+    // display:none;
+}
+
+.textCancelButton {
+    display: flex;
+    margin-left: 110px;
+    box-sizing: 10px;
+    width: 15px;
+    height: 5px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 2px;
+    border: solid black 1px;
+    background: #9ea6af;
+    color: white;
+    position: relative;
+    left: -85px;
+    top: 70px;
+
+}
+
+.form_cancel_button {
+    display: flex;
+    margin-left: 110px;
+    box-sizing: 10px;
+    width: 15px;
+    height: 5px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 2px;
+    border: solid black 1px;
+    background: #9ea6af;
+    color: white;
+    position: relative;
+    left: -85px;
+    top: 90px;
+}
+

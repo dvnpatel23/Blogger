@@ -1,0 +1,396 @@
+.feed {
+  background-color: #001935;
+//   width: 100vw;
+//   height: 100vh;
+}
+
+.mainFeed {
+    display: flex;
+
+}
+.feedIndex {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 20%;
+
+
+}
+
+.feedBody {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.far-Fa-Font-Case {
+    width: 50px;
+}
+
+.videoButton {
+
+    width: 60px;
+    display: inline-block;
+    height: 70px;
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: #ff73d3;
+    border-color: #efefef;
+    margin-bottom: -15px
+
+}
+
+
+.audioButton {
+    width: 60px;
+    display: inline-block;
+    height: 70px;
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    border-right: groove;
+    color :#8a6dff;
+    border-color: #efefef;
+    margin-bottom: -15px;
+    border-width: thin;
+
+
+}
+
+.linkButton {
+    width: 60px;
+    display: inline-block;
+    height: 70px;
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    border-right: groove;
+    color: #3dd44f;
+    border-color:#efefef;
+    margin-bottom: -15px;
+    border-width: thin;
+}
+
+.quoteButton {
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    border-right: groove;
+    width: 60px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    border-right: groove;
+    color: #ff9632;
+    border-color:#efefef;
+    margin-bottom: -15px;
+    border-width: thin;
+
+
+
+}
+
+.textFormButton {
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    border-right: groove;
+    margin-bottom: -15px;
+    border-width: thin;
+    border-color: #efefef;
+
+}
+
+.imageButton {  
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    border-right: groove;
+    border-color:#efefef;
+    color: #ff5d48;
+    margin-bottom: -15px;
+    border-width: thin;
+
+
+}
+
+.textIcon {
+    text-align: center;
+    display: grid;
+    font-size: 50px;
+    width: 50px;
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -15px
+    // border-right: groove;
+}
+
+.textIconLabel {
+    text-align: center;
+    display: block;
+}
+
+
+.photoButtonLabel {
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.formButtons {
+  height: (100px);
+//   width: (100vw);
+//   background-color: #001935;
+  margin:0px;
+
+}
+
+.header-button {
+    position: relative;
+    left: 700px;
+}
+.header-name {
+    position: relative;
+    left: 700px;
+}   
+
+.navBar {
+    float: right;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.homeIcon {
+    // position: relative;
+    // display: inline-block;
+    position: relative;
+    right: 270px;
+    top: 25px;
+    font-size: 30px;
+}
+
+.compassIcon {
+    position: relative;
+    display: inline-block;
+    right: 190px;
+    top: -9px;
+    font-size: 30px;
+}
+
+.gitImage {
+    position: relative;
+    display: inline-block;  
+    right: 170px;
+    top: -2px;
+    width: 30px;
+    height: 35px;
+    background-color: #001935;
+}
+
+.linkedinImage {
+    position: relative;
+    display: inline-block;  
+    right: 130px;
+    top: -2px;
+    width: 30px;
+    height: 35px;
+    background-color: #001935;
+
+}
+
+.linkedinIcon {
+    width: 35px;
+    height: 35px;
+    background-color: #001935;;
+}
+
+.gitIcon {    
+    // position: relative;
+    // display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #001935;;
+}
+
+.chatIcon {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    top: -9px;
+    right: 110px;
+}
+
+
+.profileIcon {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    top: -9px;
+    right: 55px;
+}   
+
+
+.homeButton {
+    font-size: 30px;
+    background:none;
+    color: white;
+    position: relative;
+    // display: inline-block;
+    font-size: 30px;
+    top: 5px;
+    right: 10px;
+
+}
+
+
+.recBlogs {
+    color: white;
+    right: -900px;
+    top: 30px;
+    border-bottom: white;
+    // border-radius: 10px;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+.recBlog1 {
+    height: 50px;
+    width: 75px;
+}
+
+.recBlog1Label {
+    display: inline-block;
+    margin-left: 30px;
+    top: -40px;
+    position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 12px;
+}
+.recBlog1Label2 {
+    display: inline-block;
+    margin-left: 55px;
+    // margin-top: -10px;
+    left: 55px;
+    // position: relative;
+    font-family: sans-serif;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    
+}
+
+.radar {
+    margin-top: 50px;
+}
+
+.programmer {
+    width:25px;
+    height: 25px;
+}
+
+.navDivider {
+    position: relative;
+    top: -20px;
+    width: 100vw;
+    border-color: #20374f;
+}
+
+.individual_post {
+
+    img {
+    width: 80%;
+    }
+
+}
+
+
+.text {
+    font-weight: bold;
+}
+
+.create_media {
+    background: transparent;
+    position: relative;
+    width:50%;
+}
+
+.index_image_post {
+    padding-left: 60px;
+    // width: 80%
+}
+
+.post_body {
+    background: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    width: 20;
+    width: 575px;
+    /* x: 5px; */
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+.resume {
+   width: 350px;
+    height: 500px;
+}
+
+
+.form {
+    position: absolute;
+    left: 30%;
+    background: white;
+    width: 500px;
+    top: 40%;
+    height: 300px;
+}
+
+.profileButton {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    top: -2px;
+    right: 20px;
+    background:none;
+    border: none;
+    color: white;
+}
+
+.quote_post_title { 
+    background: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    width: 20;
+    width: 575px;
+    /* x: 5px; */
+    margin-left: 60px;
+    margin-bottom: 15px;
+}

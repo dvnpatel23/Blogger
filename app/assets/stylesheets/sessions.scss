@@ -1,0 +1,155 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ .login-form-container {
+   display: block;
+   justify-content: center;
+   margin-top: 100px;
+   text-align: center;
+   color: white;
+ 
+
+    .login-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a {
+    // border-radius: 50px;
+    padding: 17px;
+    position:absolute;
+    top:10px;
+    right: 10px;
+    width: 50px;
+    border: none;
+    background-color: rgba(0,0,0,.0941176);
+    color: white;
+    }
+ }
+
+
+ input.login-input {
+  //  margin-left: 20px;
+   width: 250px;
+   height: 25px;
+   padding: 11px 10px 11px 13px;
+  //  border: none;
+  //  display: block;
+  //  box-shadow: none;
+  //  border-radius: 0;
+  //  display: table;
+   border: 1px thin;  
+   border-width: thin;
+   font-size: 16px;
+
+ }
+
+
+ .login-form-box {
+    display: flex;
+   padding: 5px;
+   justify-content: center;
+   width: 50%;
+    vertical-align: middle;
+    text-align: center;
+    height: 50%;
+    left: 50%;
+    top: 55%;
+      position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    padding-top: 5px;
+ }
+   
+ 
+
+//   .session-submit {
+//    text-transform: capitalize;
+//    color: red;
+//    width: 100px;
+//  }
+
+ h1.splash-header {
+     color: white;
+     font-family: serif;
+     font-size: 70px;
+     font-weight: bolder;
+     vertical-align: middle;
+    // transform: translateY(200%);
+    padding-bottom: 10px;
+        transform: translateY(15px);
+ }  
+
+ .quote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 20px;
+    font-family: inherit;
+    vertical-align: baseline;
+    color: white;
+
+}
+
+.session-submit {
+  background-color: #00B8FF;
+  color: white;
+  width: 275px;
+  // height: 25px;
+  font-size: 16px;
+  padding: 11px 10px 11px 13px;
+  border: none;
+
+}
+ 
+.demo-button {
+   background-color: orange;
+  color: white;
+  width: 275px;
+  // height: 25px;
+  font-size: 16px;
+  padding: 11px 10px 11px 13px;
+  border: none;
+
+}
+
+.renderErrors {
+  color: red;
+  position: relative;
+  bottom: -400px;
+}
+ 
+.headers {
+  color: white;
+}
+ 
+// .body {
+//   background-color: blue; 
+// }
+
+.loginSignupContainer {
+  height: (100vh);
+  width: (100vw);
+  background-image: image_url("homepage7.jpg");
+   background-size: cover;
+
+}
+
+.login-form-container {
+ height: (100vh);
+  width: (100vw);
+  background-image: image_url("homepage6.jpg");
+   background-size: cover;
+  margin:0px;
+}
+
+.headerAndQuote {
+  transform: translateY(125px)
+}

@@ -1,0 +1,22 @@
+<% if logged_in? %>
+  <script id="bootstrap-current-user" type="text/javascript">
+  	window.currentUser = <%= render("api/users/user.json.jbuilder",
+  		user: current_user).html_safe %>
+  </script>
+<% end %>
+
+<script>
+  window.images = {
+    appacademy: "<%= image_url("app-academy.png") %>",
+    Coding: "<%= image_url("Coding.jpg") %>",
+    Coder2: "<%= image_url("Coder2.png") %>",
+    CodingLangs: "<%= image_url("Coding-Languages.png") %>",
+    resume: "<%= image_url("resume.png") %>",
+    dragon: "<%= image_url("homepage4.jpg") %>",
+    github: "<%= image_url("git_logo.png") %>",
+    linkedin: "<%= image_url("linkedin.png") %>"
+
+  }
+</script>
+
+<main id="root"></main>
